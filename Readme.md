@@ -39,7 +39,7 @@ I'm a dedicated **Web Developer** currently pursuing a higher degree in programm
 
 ### 📊 GitHub Stats:
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Alexasto12&&layout=donut-vertical&theme=radical) ![GitHub stats](https://github-readme-stats.vercel.app/api?username=Alexasto12&show_icons=true&theme=radical&hide_rank=true)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Alexasto12&&layout=donut-vertical&theme=neon) ![GitHub stats](https://github-readme-stats.vercel.app/api?username=Alexasto12&show_icons=true&theme=neon&hide_rank=true)
 
 
 
