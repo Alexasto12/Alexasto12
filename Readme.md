@@ -6,7 +6,6 @@ I'm a dedicated **Web Developer** currently pursuing a higher degree in programm
 
 ### 👨‍💻 About Me:
 - ✨ **Aspiring Web Developer** with a focus on front-end and WordPress development.
-- ⚖️ Currently working at **Grafix**, using **WordPress**.
 - 🎓 Studying **Higher Degree in Programming**.
 - 🎨 Love clean UI/UX and well-structured code.
 - ✅ Open to collaboration on interesting web projects.
