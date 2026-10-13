@@ -1,234 +1,84 @@
-<div align="center">
+# Alejandro Cabrera
 
-# Alejandro 👋
+I got into this as a kid, swapping the hard drive of the family laptop and installing Mandriva just to play Wormux. These days I build websites, backends and automations from Granollers, near Barcelona. Most of it goes through **Digital DesAny**, the studio I run with Oriol Tamborero.
 
-### High-Density Systems · PostGIS Logic · Pixel Perfection 🔧
-
-<p align="center">
-  <a href="https://github.com/Alexasto12">
-    <img src="https://img.shields.io/badge/GitHub-Alexasto12-181717?style=for-the-badge&logo=github" alt="GitHub">
-  </a>
-  <a href="https://github.com/Alexasto12/Neighborly_Back_Go">
-    <img src="https://img.shields.io/badge/🚀_Neibr_Core-Architecture-00ADD8?style=for-the-badge" alt="Neibr">
-  </a>
-  <a href="https://alexasto.com">
-    <img src="https://img.shields.io/badge/Portfolio-alexasto.com-6c3bd1?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website">
-  </a>
-</p>
-
-</div>
+<img src="https://skillicons.dev/icons?i=go,java,spring,nextjs,ts,postgres,redis,docker,cloudflare,vercel,wordpress,linux&perline=12" alt="Go, Java, Spring, Next.js, TypeScript, PostgreSQL, Redis, Docker, Cloudflare, Vercel, WordPress, Linux" />
 
 ---
 
-<img src="https://img.shields.io/badge/Portfolio-alexasto.com-6c3bd1?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website">
+## <img src="https://www.digitaldesany.com/logo/logo-facetedmonogram-aurora.svg" height="24" alt="" /> Digital DesAny
 
-### 🧠 The Engineer's Mind
+Small businesses around here usually come to us with one of these:
 
-I am a **Visual Architect** from Spain 🇪🇸. I am a **Visual Architect** from Spain 🇪🇸 operating under a **Deterministic Logic**. My workflow filters out noise to prioritize absolute coherence and low-latency systems. I don't just "write code"; I simulate physical constraints.
+- a website they're a bit embarrassed to send to customers
+- a task someone does by hand every week that a script could do
+- a tool that doesn't fit the way they actually work
 
-* **The "Combat Engineer":** I reject "magic" in code. I need to control memory layout (Go) and deterministic spatial relations (PostGIS).
-* **The Visual Obsession:** If the frontend aesthetics (Pixel Perfect) do not match the backend's structural elegance, the system is broken.
-* **The Hardware:** I code on a tuned **Ryzen 7500F / RTX 5070 Ti** setup because I demand 1:1 responsiveness between thought and execution.
+That's what we fix. Websites, automations (with AI when it helps, plain rules when it doesn't), custom software, and social media for the ones who'd rather not deal with it. In Catalan or Spanish, in person around Granollers and Barcelona or remotely.
 
-<br clear="right"/>
+Oriol leads sales and social media. I build, and I also handle pricing, the servers and a good share of the client calls.
 
----
+| Project | What we did |
+| --- | --- |
+| [Lara's Oak](https://www.digitaldesany.com/es/casos-exito/lara-oak) | Portfolio for a storyboard and concept artist, with a CMS built on our own block system |
+| [Paula Krebel](https://www.digitaldesany.com/es/casos-exito/paula-krebel) | Trilingual portfolio for a children's illustrator, plus her brand and a design system |
+| [Roses de Sant Jordi](https://www.digitaldesany.com/es/casos-exito/rosesstjordi) | Digital roses with a dedication for Sant Jordi. Over 500 sent, and it trended on Reddit Catalunya |
+| Hidrotech Bordalló | Social media for an industrial cleaning machinery company: demo reels, LinkedIn, YouTube, customer emails |
 
-### 🛠️ The Arsenal (Polyglot Architecture)
+Once a project is paid, the code and the design belong to the client, with full documentation. If they ever want to move to someone else, they can do it without starting from zero.
 
-<div align="center">
+**How we run it.** Client sites on Next.js and Vercel, Cloudflare for DNS and email. Whatever shouldn't be serverless lives on our own VPS: n8n for the automations, invoicing, internal tools, and an OpenAI-compatible gateway in front of the models our automations use.
 
-| Domain | Technology | Architectural Reasoning |
-| :--- | :--- | :--- |
-| **High-Perf & Security** | ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) ![Chi](https://img.shields.io/badge/Chi_Router-success?style=flat-square) ![SQLite](https://img.shields.io/badge/SQLite_WAL-003B57?style=flat-square&logo=sqlite&logoColor=white) | Used for **WebShield**. When blocking IPs under heavy load, I need Go's worker pools and SQLite in WAL mode for non-blocking I/O. |
-| **Legacy Integration** | ![Java](https://img.shields.io/badge/Java_21-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring_Boot_3-6DB33F?style=flat-square&logo=springboot&logoColor=white) ![AS400](https://img.shields.io/badge/IBM_AS400-052FAD?style=flat-square&logo=ibm&logoColor=white) | Used for **AS/400 API**. Java is the industry standard for robust connection to IBM legacy mainframes via JDBC/jt400. |
-| **Frontend Ecosystem** | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Next.js](https://img.shields.io/badge/Next.js_15-black?style=flat-square&logo=next.js&logoColor=white) ![React](https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black) | Used for **Claims & Sign**. TypeScript provides the strict data contracts required for corporate legal workflows. |
-| **System Scripting** | ![PHP](https://img.shields.io/badge/PHP_CLI-777BB4?style=flat-square&logo=php&logoColor=white) ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white) | Used for **VMV Backups**. PHP CLI interacting directly with Kernel calls (`exec`, `tar`) to bypass memory limits. |
+**On my desk right now**
 
-</div>
+- Self-hosted contract signing, so clients can sign a proposal from a link
+- Invoicing plugins that fit the way we actually bill
+- A monthly report on how visible a business is in AI answers, tested on ourselves first
 
----
-
-### 🏛️ Enterprise Engineering (VMV Cosmetic Group)
-
-> *Production-grade ecosystem designed to modernize legacy infrastructure.*
-
-<table width="100%">
-<tr>
-<td width="50%" valign="top">
-
-#### 🛡️ [VMV WebShield (Security Core)](https://github.com/Alexasto12)
-![Private](https://img.shields.io/badge/🔒_Internal-Go_Microservice-critical?style=flat-square)
-> **Distributed Threat Defense System.**
-
-* **Architecture:** Go (Golang) microservice acting as a centralized brain for blocking malicious traffic.
-* **Performance:** Implements **Worker Pools** (Producer-Consumer pattern) to handle 10k+ request buffers without blocking HTTP threads.
-* **Data:** SQLite in **WAL Mode** for high-concurrency writes.
-* **Logic:** Automatic "Score Decay" system to rehabilitate IPs over time.
-
-</td>
-<td width="50%" valign="top">
-
-#### 💾 [AS/400 Integration API](https://github.com/Alexasto12)
-![Private](https://img.shields.io/badge/🔒_Internal-Java_Spring-critical?style=flat-square)
-> **The Bridge to Legacy.**
-
-* **Stack:** Java 21 + Spring Boot 3.
-* **Mission:** Exposes a secure REST interface to query the internal **IBM AS/400** mainframe (DB2).
-* **Tech:** Uses `jt400` driver and Spring Data JDBC to map legacy `COBAR/CODALT` fields to modern JSON.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-#### 📦 [VMV Backups (Teleport Protocol)](https://github.com/Alexasto12)
-![Private](https://img.shields.io/badge/🔒_Internal-System_Engineering-critical?style=flat-square)
-> **Distributed Infrastructure Backup System.**
-
-* **Innovation:** Bypasses PHP memory limits by invoking **Kernel System Calls** (`tar`, `mysqldump`, `exec`) directly.
-* **Protocol:** Implements a custom **"HTTP Chunked Teleport"** protocol to move GB-sized artifacts between servers without FTP.
-* **Vault:** Local "Packer" agent + Remote "Bridge" receiver.
-
-</td>
-<td width="50%" valign="top">
-
-#### ✍️ [VMV Sign (LegalTech)](https://github.com/Alexasto12)
-![Private](https://img.shields.io/badge/🔒_Internal-Next.js_App-critical?style=flat-square)
-> **Digital Signature Gateway.**
-
-* **Core:** Next.js 16 App Router + Server Actions.
-* **PDF Engine:** Dynamic injection of data into AcroForms using `pdf-lib` binary manipulation.
-* **Integration:** Orchestrates biometric/OTP signature flows via 3G Mobile Sign API.
-
-</td>
-</tr>
-</table>
-
-**Other Microservices:**
-* **📧 Storage Service:** ![Node](https://img.shields.io/badge/Node.js-green?style=flat-square) Ultralight stateful asset manager (S3-like) using Node.js Streams & Docker Volumes.
-* **📋 VMV Claims:** ![Next.js](https://img.shields.io/badge/Next.js-black?style=flat-square) Full claims management platform with Atomic Design & JWT Auth.
+> [!TIP]
+> Got a business in Catalonia and something stuck on your website or in your day-to-day? Write to **info@digitaldesany.com**. We'll tell you where to start, and if you don't need us, we'll tell you that too.
 
 ---
 
-### 🚀 Personal Flagship (R&D)
+## Before
 
-<table width="100%">
-<tr>
-<td width="50%" valign="top">
+**VMV Cosmetic Group** · 2025-2026
+Lead web developer for a cosmetics group: 30+ domains, 21 live sites, and a fair amount of Go and Java glue behind them.
 
-#### 📦 [Neighborly Backend](https://github.com/Alexasto12)
-> **Role: Lead Architect.**
-> A B2B logistics broker API connecting delivery operators with a distributed neighbor network.
+<details>
+<summary>What I built there</summary>
 
-![Private](https://img.shields.io/badge/🔒_Source-Proprietary-critical?style=flat-square)
-![Go](https://img.shields.io/badge/Go_1.25-00ADD8?style=flat-square&logo=go&logoColor=white)
-![Fiber](https://img.shields.io/badge/Fiber_v2-00ACD7?style=flat-square)
+- A WAF in Go with IP reputation scoring
+- A Java 21 / Spring Boot service that exposes the IBM i (AS/400) ERP as a REST API
+- A biometric e-signature platform in Next.js
+- An internal AI gateway with an OpenAI-compatible API
+- WhatsApp Business notifications for the regional branches, in Go
 
-* 🏗️ **Core Logic:** Replaced document routing with **Spatial Queries (`ST_DWithin`)** for <150m matching.
-* 🔐 **Security:** SHA-256 double-blind security & API Key hashing.
-* 📒 **Ledger:** Immutable financial tracking via Event Sourcing.
-* 📄 **Docs:** Full ADRs (Decision Records) & Arc42 docs.
+</details>
 
-</td>
-<td width="50%" valign="top">
+**Neibr** · co-founder
+When a parcel delivery failed, instead of going back to the sender it went to a neighbour within 200 m. I wrote the backend and also took care of deployment, the website and part of the sales. It won one of the Santander X Spain Awards 2026 at UVic. We still closed it in 2026, before launch: talking to a big carrier showed us problems in the model that code wasn't going to fix.
 
-#### 📓 [Diario Bitácora](https://github.com/Alexasto12)
-> **Role: Product Engineer.**
-> AI-powered developer journal that processes daily work logs into structured intelligence.
+<details>
+<summary>Technical bits</summary>
 
-![Private](https://img.shields.io/badge/🔒_Source-Private_Beta-critical?style=flat-square)
-[![Live](https://img.shields.io/badge/🌐_Live-diario--bitacora.vercel.app-6c3bd1)](https://diario-bitacora.vercel.app)
+- Go (Fiber), PostgreSQL, Redis
+- Assignment: SQL bounding-box prefilter, then exact Haversine distance
+- Multi-tenant API keys, idempotent writes, HMAC-signed webhooks, append-only audit ledger
+- Last load test: ~2.9M requests in 50 minutes (~968 req/s), p95 under 100 ms, zero 5xx
 
-`TypeScript` `Next.js` `MongoDB` `LLM/AI`
+</details>
 
-* 🤖 **Logic:** AI "Technical Librarian" that consolidates unstructured logs.
-* 🧠 **Memory:** Historical context window for productivity velocity analysis.
-* 📊 **Metrics:** Automatic impact scoring & work categorization.
+**Earlier**
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+- Cashless payments for vending machines at Automated Transactions: translating payment payloads to hex and talking to the machine over a 9600-baud serial bus (MDB).
+- DAW degree. Final project: [Peer2Stream](https://github.com/Alexasto12/peer2stream), a site to discover and track movies and series, built with Ismael Delgado (10/10).
+- Before all that, years of fixing family and neighbours' computers. That's how I paid for my first PC.
 
-#### 🎬 [Peer2Stream (TFG)](https://github.com/Alexasto12/peer2stream)
-> **Role: Full-Stack Architect.**
-> Decentralized streaming discovery platform. *Academic Grade: 10/10.*
-
-![Public](https://img.shields.io/badge/🟢_Source-Open_Access-success?style=flat-square)
-[![Live](https://img.shields.io/badge/🌐_Live-peer2stream.vercel.app-6c3bd1)](https://peer2stream.vercel.app)
-
-* 🔍 **Architecture:** Zero-database content distribution model.
-* 🔐 **Auth:** Full JWT system with captcha & email reset loops.
-* ⏩ **UX:** Infinite scroll & debounce search optimization.
-
-</td>
-<td width="50%" valign="top">
-
-#### 🎨 [Pokédex DS](https://github.com/Alexasto12/CV)
-> **Role: Visual Architect.**
-> A study in **Skeuomorphism & Pixel Perfection**.
-
-![Public](https://img.shields.io/badge/🟢_Source-Open_Access-success?style=flat-square)
-[![Live](https://img.shields.io/badge/🌐_Live-Demo-2ea44f)](https://alexasto12.github.io/CV/)
-
-* **The Detail:** Recreated the Nintendo DS physical interface using pure CSS/JS.
-* **The Logic:** No canvas shortcuts. Just pure DOM manipulation and math to simulate physical buttons and dual screens.
-
-</td>
-</tr>
-</table>
+**Off the clock** I self-host more than is reasonable at home: a local AI stack, a modded Minecraft server, and whatever I'm taking apart that week.
 
 ---
 
-<h3>⚡ System Capabilities</h3>
+[digitaldesany.com](https://www.digitaldesany.com/es) · [Digital DesAny on LinkedIn](https://www.linkedin.com/company/digital-desany/) · [dev.alexasto.com](https://dev.alexasto.com) · [LinkedIn](https://www.linkedin.com/in/ccalejandro/)
 
-<table width="100%">
-  <tr>
-    <td width="25%"><b>🏗️ Architecture</b></td>
-    <td width="25%"><code>██████████</code></td>
-    <td width="50%">Event Sourcing, ADRs, Clean Arch</td>
-  </tr>
-  <tr>
-    <td><b>🔐 Security</b></td>
-    <td><code>█████████</code></td>
-    <td>SHA-256, OAuth2, GDPR, Bearer Tokens</td>
-  </tr>
-  <tr>
-    <td><b>⚙️ High-Perf Backend</b></td>
-    <td><code>██████████</code></td>
-    <td>Go Fiber, PostGIS, Concurrency</td>
-  </tr>
-  <tr>
-    <td><b>🎨 Visual Frontend</b></td>
-    <td><code>██████████</code></td>
-    <td>Pixel Perfect, React 19, Framer Motion</td>
-  </tr>
-  <tr>
-    <td><b>🤖 AI Engineering</b></td>
-    <td><code>███████</code></td>
-    <td>LLM Memory Systems, RAG Pipelines</td>
-  </tr>
-</table>
-
----
-
-### 📊 System Telemetry
-
-<div align="center">
-
-![Alexasto12's GitHub stats](https://github-readme-streak-stats.herokuapp.com/?user=alexasto12&theme=dracula&hide_border=true)
-
-<br/>
-
-<img src="https://komarev.com/ghpvc/?username=Alexasto12" alt="Profile Views" />
-
-</div>
-
----
-
-<div align="center">
-  <i>"Solving physical problems with digital precision."</i>
-  <br/>
-  <b><a href="https://alexasto.com">🌐 alexasto.com</a></b>
-</div>
+<sub>Fet a Granollers.</sub>
